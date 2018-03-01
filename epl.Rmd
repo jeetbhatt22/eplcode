@@ -198,6 +198,3 @@ with(mymodel, pchisq(null.deviance - deviance, df.null - df.residual, lower.tail
 ```{r}
 logLik(mymodel)
 ```
-
-
-
