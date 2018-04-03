@@ -5,8 +5,8 @@ date: "March 1, 2018"
 output: html_document
 ---
 
-  ```{r}
-epl = read.csv("epldata_final.csv")
+```{r}
+epl = read.csv("J:/Study/Sem 3/Data Warehouse and mining/EPL/epldata_final.csv")
 head(epl)
 epl1=na.omit(epl)
 sum(is.na(epl1))
