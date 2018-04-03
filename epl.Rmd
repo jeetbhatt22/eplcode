@@ -5,8 +5,13 @@ date: "March 1, 2018"
 output: html_document
 ---
 
+<<<<<<< HEAD
 ```{r}
 epl = read.csv("J:/Study/Sem 3/Data Warehouse and mining/EPL/epldata_final.csv")
+=======
+  ```{r}
+epl = read.csv("epldata_final.csv")
+>>>>>>> 4bc709efba5ed5b357c2f51e362f64f1440e11bc
 head(epl)
 epl1=na.omit(epl)
 sum(is.na(epl1))
@@ -198,3 +203,9 @@ with(mymodel, pchisq(null.deviance - deviance, df.null - df.residual, lower.tail
 ```{r}
 logLik(mymodel)
 ```
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 4bc709efba5ed5b357c2f51e362f64f1440e11bc
